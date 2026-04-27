@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.price-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+#total {
+  display: block;
+  padding: 8px;
+  background: #ff7675;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: 05s;
+  font-weight: 600;
+}
+
+#submit {
+  width: 70%;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  background: #2196f3;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#submit,
+.btnSearch button:hover {
+  background: #1976d2;
+}
+.btnSearch button {
+  width: 50%;
+  height: 35px;
+  padding: 10px;
+  background: #2196f3;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.search {
+  margin: 10px;
+}
+
+.btnSearch {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  margin-top: 30px;
+  background: white;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #333;
+  color: white;
+}
+#deleteAll {
+  width: 70%;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff7675;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  display: none;
+}
+#deleteAll:hover {
+  background-color: #c0392b;
+}
+#search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.update,
+.delete {
+  background-color: white;
+  color: #636e72;
+  cursor: pointer;
+  transition: 0.2s;
+  border: none;
+}
+.update,
+.delete {
+  color: #d63031;
+}
